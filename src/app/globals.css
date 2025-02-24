@@ -1,1 +1,22 @@
-@import "tailwindcss";
+@import "TailwindCSS";
+
+@theme {
+  --color-*: initial;
+
+  --color-blue: #0004f5;
+  --color-purple: #ff33ef;
+  --color-danger: #ff1025;
+
+  --color-gray-100: #eeeef0;
+  --color-gray-200: #b2b3bd;
+  --color-gray-300: #797b86;
+  --color-gray-400: #46484f;
+  --color-gray-500: #393a40;
+  --color-gray-600: #292a2e;
+  --color-gray-700: #222325;
+  --color-gray-800: #19191b;
+  --color-gray-900: #111113;
+
+  --font-heading: var(--font-oxanium);
+  --font-sans: var(--font-montserrat);
+}
